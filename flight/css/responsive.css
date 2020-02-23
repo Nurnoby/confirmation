@@ -1,0 +1,106 @@
+/*===================================================================
+       Extra small devices (portrait phones, less than 576px)
+====================================================================*/
+@media (max-width: 575.98px) { 
+ .navbar-nav{
+ 	text-align: center;
+ 	background-color: rgba(0,0,0,0.2);
+ }
+ .nav-item a:hover{    
+    color:#8dc63f !important;
+    border-bottom:0; 
+    padding: 14px 14px !important;   
+}
+.navbar-brand img {
+    height: 80px;
+    width: 170px;
+}
+.confirmation li {
+    padding: 10px 37px;
+    font-size: 16px;
+}
+
+ }
+/*===================================================================
+       Small devices (landscape phones, 576px and up)
+====================================================================*/
+
+
+@media (min-width: 576px) and (max-width: 767.98px) { 
+ .navbar-nav{
+ 	text-align: center;
+ 	background-color: rgba(0,0,0,0.2);
+ }
+ .nav-item a:hover{    
+    color:#8dc63f !important;
+    border-bottom:0; 
+    padding: 14px 14px !important;   
+}
+.navbar-brand img {
+    height: 80px;
+    width: 170px;
+}
+
+.confirmation li {
+    padding: 14px 10px;
+    font-size: 16px;
+}
+
+ }
+
+
+/*===================================================================
+       Medium devices (tablets, 768px and up)
+====================================================================*/
+@media (min-width: 768px) and (max-width: 991.98px) { 
+ .navbar-nav{
+ 	text-align: center;
+ 	background-color: rgba(0,0,0,0.2);
+ }
+ .nav-item a:hover{    
+    color:#8dc63f !important;
+    border-bottom:0; 
+    padding: 14px 14px !important;   
+}
+.navbar-brand img {
+    height: 100px;
+    width: 200px;
+}
+.confirmation li {    
+    font-size: 16px;
+    padding:0;
+}
+ .confirmation li .number {    
+    padding: 2px 9px;
+}
+
+ }
+
+
+/*===================================================================
+       Large devices (desktops, 992px and up)
+====================================================================*/
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+.navbar-brand img{
+    height: 100px;
+    width: 200px;
+}
+.nav-item a{
+    font-size: 16px;    
+}
+.phone img{
+    height: 20px;
+}
+.confirmation li {
+    padding: 0 18px;
+}
+
+ }
+
+/*===================================================================
+       Extra large devices (large desktops, 1200px and up)
+====================================================================*/
+@media (min-width: 1200px) { 
+
+
+ }
